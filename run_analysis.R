@@ -185,5 +185,5 @@ if (file.exists(ActivityFile) & file.exists(FeaturesFile) &
     TidyData = merge(TidyData, ActivityTypeData, by = 'activityId', all.x = TRUE)
 
     # Export the TidyData set
-    write.table(TidyData, TidyFile, row.names = TRUE, sep = '\t')
+    write.table(TidyData, TidyFile, row.names = FALSE, sep = '\t')
 }
