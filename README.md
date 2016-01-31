@@ -18,6 +18,7 @@ No modifications are required to the R file before you can process the data. Pla
 The following is a summary description of the project instructions
 
 This script will perform the following steps on the UCI HAR Dataset.
+
 1. Merge the test and train data sets to create one data set
 2. Extract only the measurements on the mean and standard deviation for each measurement
 3. Apply descriptive column names to name the activities in the data set
